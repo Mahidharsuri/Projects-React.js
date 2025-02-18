@@ -14,7 +14,7 @@ const Weather = () => {
     const [city,setCity]=useState('');
     const [weather,setWeather] = useState({})
 const searchIcon = () =>{
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=fe2bfd3a7e2a445f55257071e63f93cc`)
+    fetch(`https://api.openweathermap.org/data/2.5/ weather?q=${city}&units=metric&appid=fe2bfd3a7e2a445f55257071e63f93cc`)
    .then(response => response.json()
    ).then(result =>{setWeather(result);console.log(result)}
     );
