@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from 'react'
 
-import './weather.css'
+import './weather.css' 
 import Search_icons from '../assets/search.png'
 import Clear_icons from '../assets/clear.png'
 import Cloud_icons from '../assets/cloud.png'
