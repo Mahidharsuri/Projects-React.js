@@ -19,7 +19,7 @@ const App = () => {
 
       if (bmi < 25) {
         setMessage("Your Under Weight");
-      } else if (bmi >= 25 && bmi < 35) {
+      } else if (bmi >= 25 && bmi < 35) { 
         setMessage("Your are a healthy Weight");
       } else {
         setMessage("Your Over Weight");
