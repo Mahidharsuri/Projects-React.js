@@ -24,7 +24,7 @@ const searchIcon = () =>{
   return (
     <div className="weather">
         <div className="search-bar">
-            <input type="text" placeholder='Search' className='weather-icon' onChange={(e)=>setCity(e.target.value)} />
+            <input type="text" placeholder='Search'  className='weather-icon' onChange={(e)=>setCity(e.target.value)} />
             <img src={Search_icons} alt="" onClick={searchIcon}/>
         </div>
         <img src={Clear_icons} alt="" />
